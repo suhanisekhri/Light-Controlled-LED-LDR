@@ -17,6 +17,15 @@ This project controls an LED based on the surrounding light intensity using a Li
 - If it's dark (below threshold), the LED turns ON.
 - If it's bright, the LED stays OFF.
 
+## 📷 Circuit Diagram
+
+### 🔧 Tinkercad Simulation
+![Tinkercad Circuit](ldr_led_tinkercad.png)
+
+### 🔌 Actual Circuit
+![Real Circuit](ldr_led.png)
+
+
 ## 🧪 Code
 ```cpp
 const int ldrPin = A0;
